@@ -1,0 +1,65 @@
+
+.clear{
+    clear: both;
+}
+#mainct{
+    width: 1100px;
+    
+    margin-top: 100px;
+}
+
+footer{
+    width: 80%;
+    margin:20px auto;
+}
+#push{
+  
+    margin-top: 20px;
+}
+#msgModal .modal-dialog{
+    margin-top: 200px;
+    width: 450px;
+}
+#msgModal .modal-body{
+    padding: 5px;
+    margin: 0px;
+}
+#msgModal .modal-footer{
+    padding: 5px;
+    margin: 0px;
+}
+#nav-user{
+    display: block;
+    
+    margin-left: 100px;
+}
+.classlist{
+    width: 265px;
+    height: 130px;
+    border:solid 2px #eee;
+    float:left;
+    margin:10px 10px 0 0;
+    border-radius: 3px;
+    padding: 5px;
+}
+.classlist h5{
+    margin-top:10px;
+    
+}
+.classlist small{
+    margin-left: 20px;
+}
+.classop{
+    margin-left: 20px;
+}
+.classlist h6{
+    margin-top: 4px;
+    margin-bottom: 4px;
+   
+}
+#pricedeclare{
+    margin-left: 10px;
+}
+.shortinput{
+    width: 50%;
+}

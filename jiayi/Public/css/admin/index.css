@@ -1,0 +1,86 @@
+
+.clear{
+    clear: both;
+}
+#mainct{
+    width: 1100px;
+    margin-top: 100px;
+}
+.side{
+    float: left;
+    width: 20%;
+}
+.ct{
+    width: 75%;
+    border:1px solid #bbb;
+    float: left;
+    border-radius: 5px;
+    margin-left: 5%;
+    padding: 20px;
+    display: none;
+}
+.input-group{
+    margin-bottom: 10px;
+}
+.input-group span{
+    margin-left:20px;
+}
+.shortinput{
+    width: 50%;
+}
+.file{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#side3 .lbphoto{
+    width: 50%;
+    margin-left: 20px;
+}
+
+#pushside31,#pushside32,#pushside33,#pushside34,#pushside35{
+    margin-left: 20px;
+}
+#type{
+    width: 50%;
+}
+#tclass,#vip,#sclass,#class{
+    width: 50%;
+}
+#classgroup .mselect{
+    float: left;
+    margin:10px 30px 10px 0;
+}
+.mselect select{
+    margin-bottom: 10px;
+}
+#gclasspricebtn{
+    margin-top: 10px;
+}
+.btn-push{
+    margin-top: 10px;
+}
+#msgModal .modal-dialog{
+    margin-top: 200px;
+    width: 450px;
+}
+#msgModal .modal-body{
+    padding: 5px;
+    margin: 0px;
+}
+#msgModal .modal-footer{
+    padding: 5px;
+    margin: 0px;
+}
+.middleinput{
+    width:70%;
+}
+.sop{
+    color:#F0AD4E;
+}
+#kbdiv{
+    display: none;
+}
+footer{
+    margin: 20px auto;
+    width: 80%;
+}

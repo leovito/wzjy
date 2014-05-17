@@ -1,0 +1,101 @@
+
+.clear{
+    clear: both;
+}
+#mainct{
+    width: 1100px;
+    margin-top: 100px;
+}
+.side{
+    float: left;
+    width: 20%;
+}
+.ct{
+    width: 75%;
+    border:1px solid #bbb;
+    float: left;
+    border-radius: 5px;
+    margin-left: 5%;
+    padding: 20px;
+    display: none;
+}
+.input-group{
+    margin-bottom: 10px;
+}
+.input-group span{
+    margin-left:20px;
+}
+.shortinput{
+    width: 50%;
+}
+
+#msgModal .modal-dialog{
+    margin-top: 200px;
+    width: 450px;
+}
+#msgModal .modal-body{
+    padding: 5px;
+    margin: 0px;
+}
+#msgModal .modal-footer{
+    padding: 5px;
+    margin: 0px;
+}
+#nav-user{
+    display: block;
+    
+    margin-left: 100px;
+}
+#side1{
+    display: none;
+}
+.breadcrumb{
+    margin-bottom: 10px;
+    margin-right: 25px;
+    width: 45%;
+    float:left;
+}
+#gg{
+    height: 400px;
+    overflow:auto;
+}
+.achievement{
+    margin-left: 25px;
+    margin-right: 20px;
+}
+.achievementname{
+     
+}
+.studentinfo{
+    padding: 20px;
+    border:solid #eee 2px;
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+}
+.sinfo1,.sinfo2,.sinfo3,.sinfo4{
+    float: left;
+    margin-right: 10px;
+    padding: 5px;
+}
+#studentimg{
+    width: 100px;
+}
+.btn-contact{
+    margin-top: 135px;
+}
+#inputachievement{
+    border-radius: 10px;
+    border: 2px solid #eee;
+    height: 200px;
+    padding: 15px;
+}
+.csimg{
+    width: 100px;
+    height: 100px;
+}
+.studentimg{
+    width: 40%;
+    margin-right: 5%;
+    float: left;
+}

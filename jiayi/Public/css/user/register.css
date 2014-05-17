@@ -1,0 +1,56 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.shortinput{
+    width: 300px;
+    float: left;
+    margin: 0 20px 10px 0;
+}
+
+#verifyimg{
+    float: left;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    margin:5px 10px;
+}
+.clear{
+    clear: both;
+}
+#msgModal .modal-dialog{
+    margin-top: 200px;
+    width: 350px;
+}
+#msgModal .modal-body{
+    padding: 5px;
+    margin: 0px;
+}
+#msgModal .modal-footer{
+    padding: 5px;
+    margin: 0px;
+}
+#loginbtn{
+    margin-top: 15px;
+}
+#logo{
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    width: 300px;
+}

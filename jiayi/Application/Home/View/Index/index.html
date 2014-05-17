@@ -1,0 +1,378 @@
+<!doctype html>
+
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="not-ie" lang="en">
+<!--<![endif]-->
+<head>
+    <title>嘉一教育</title>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+     <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+  
+      <link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/css/index/elastislide.css">
+     <link rel="stylesheet" href="__PUBLIC__/css/index/custom.css">
+     <link rel="stylesheet" href="__PUBLIC__/css/index/index.css"> 
+    <link href="__PUBLIC__/css/index/common.css" rel="stylesheet" type="text/css" />
+   <link href="__PUBLIC__/css/index/timetabs.css" rel="stylesheet" type="text/css" />
+        
+        <script src="__PUBLIC__/js/modernizr.custom.17475.js"></script>
+</head>
+
+<body>
+      
+    <div class="header">
+        <div class="topad">
+            <img imgsrc="__PUBLIC__/images/topad.gif">
+        </div>
+        
+
+   
+        
+        <div class="topbar">
+            
+        <div class="logo">
+            <img imgsrc="__PUBLIC__/images/logo.png">
+        </div>
+        
+        <div class="topc">
+            
+
+     <ul id="breadcrumb">
+  <li><a href="#"><span class="icon icon-home"> </span></a></li>
+  <li><a href="__URL__"><span class="glyphicon glyphicon-home"> </span> &nbsp;&nbsp;&nbsp;首页&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+  
+  <li><a href="__URL__/newscenter"><span class="glyphicon glyphicon-bullhorn"> </span> &nbsp;&nbsp;&nbsp;新闻中心&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+  <li><a href="__URL__/classlist"><span class="glyphicon glyphicon-list-alt"> </span>&nbsp;&nbsp;&nbsp;嘉一课表&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+  <li><a href="__URL__/aboutus"><span class="glyphicon glyphicon-send"></span>&nbsp;&nbsp;&nbsp;走进嘉一&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+  <li><a href="__URL__/school"><span class="glyphicon glyphicon-inbox"> </span> &nbsp;&nbsp;&nbsp;嘉一分校&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+</ul>
+
+
+        </div>
+        
+        </div><!-- end topbar-->
+        
+        
+    </div><!--end header-->
+    <div class="clear"></div>
+        <hr class="tophr">
+    <div class="ct">
+        
+        
+        
+        <div class="lb">
+    
+ <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    
+    <volist name="photo" id="vop">
+        <div class="item">
+            <a href="{$vop.avalue}"><img src='__ROOT__/Uploads{$vop.value}' style="width: 725px;height: 280px;"></a>
+      
+      <div class="carousel-caption">
+       
+      </div> 
+    </div> 
+</volist>
+    
+   </div>
+
+ </div>
+   </div>
+
+        
+        
+        <div class="login">
+            
+            <a id="re" class="btn btn-primary" role="button" href="__ROOT__/Home/User/register">注册</a>
+            
+            <div class="tab">
+            <ul class="nav nav-tabs" id="myTab">
+            <li class="active"><a href="#gg" data-toggle="tab">嘉一公告</a></li>
+            <li><a href="#loginpanel" data-toggle="tab">用户登入</a></li>
+             </ul>
+
+        <div class="tab-content">
+            
+  <div class="tab-pane active" id="gg">
+    <ul>
+        <volist name="gg" id="vogg">
+<li><span class="glyphicon glyphicon-volume-down"></span><a href="__URL__/article/articleid/{$vogg.id}">{$vogg.title}</a></li>
+        <div class="clear"></div>
+        <hr>
+</volist>
+        
+    </ul>
+  </div>
+  
+  <div class="tab-pane" id="loginpanel">
+  <input id="username" type="text" class="form-control" placeholder="用户名">
+    <input id="password" type="password" class="form-control" placeholder="密码">
+   <button class="btn btn-default" id="loginbtn">立即登入</button>
+   <div class="clear"></div>
+   <a id="fgpass" href="">忘记密码</a>
+  </div>
+  
+  
+</div>
+
+</div><!-- login-->
+              
+            <button id="discuss" class="btn btn-warning"><span class="glyphicon glyphicon-comment"></span>&nbsp;&nbsp;家长互动论坛</button>
+            
+        </div>
+            
+            
+        <div class="clear"></div>
+        
+        <div class="navigate">
+            <ul>
+                <li>最新课堂</li>
+                <li>嘉一名师</li>
+                <li>嘉一校区</li>
+                <li>诚聘英才</li>
+                <li>联系我们</li>
+                <li>嘉一党建</li>
+                <li>嘉一名人堂</li>
+                <li>活动</li>
+                <li>嘉一名人堂</li>
+                <li>活动</li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+        
+        <div class="contact">
+            
+            <div class="cway">
+                <a href="http://wpa.qq.com/msgrd?v=3&uin=511912708&site=qq&menu=yes"><img src="__PUBLIC__/images/qq.png">
+                <h5 class="text-success qq">QQ在线咨询 511912708</h5>
+                </a>
+            </div>
+            
+            <div class="cway">
+                <img src="__PUBLIC__/images/weibo.png">
+                    <h5 class="text-warning weibo">关注嘉一微博&nbsp;&nbsp;&nbsp;</h5>
+            </div>
+            
+            <div class="cwayb">
+                <div class="cwayb1">
+                <img src="__PUBLIC__/images/weixin.png">
+                    <h5 class="weixin">关注嘉一微信</h5>
+                    <div class="clear"></div>
+                    <h6 class="text-muted">（扫一扫右边二维码）</h6>
+                </div>
+                <div class="cwayb2">
+                    <img src="__PUBLIC__/images/weixin.jpg">
+                </div>
+            </div>
+        </div><!-- end contact-->
+        
+        <div class="clear"></div>
+
+    <div class="news">
+        <div class="news1">
+            <div class="news1bar">
+                <h4 class="text-success">嘉一最新动态<a href="__URL__/articlelist/type/嘉一动态"><span  class="glyphicon glyphicon-list"></span>&nbsp;查看更多</a></h4>
+            </div>
+            <div class="news1ct">
+                <div class="cttop">
+                    <img src="__ROOT__/Uploads{$newsheader.photo}">
+                        <div class="cttopct">
+                            <h4 class="text-success text-center">{$newsheader.title}</h4>
+                            <p class="text-muted">
+                                {$newsheader.sct}<a class="glyphicon glyphicon-chevron-right" href="__URL__/article/articleid/{$newsheader.id}">&nbsp;查看详情</a>
+                            </p>
+                        </div>
+                </div>
+                <volist name="news" id="vonews">
+<div class="newslist">
+                    <h4><span class="glyphicon glyphicon-bullhorn text-muted">&nbsp;{$vonews.time|date="y-m-d",###}</span><span class="newslistt"><a href="__URL__/article/articleid/{$vonews.id}">{$vonews.title}</a></span></h4>
+                </div>
+</volist>
+                
+            </div>
+        </div>
+        <div class="news2">
+            <div class="news2bar">
+                <h4 class="text-success">嘉一焦点新闻<a href="__URL__/articlelist/type/嘉一新闻"><span  class="glyphicon glyphicon-list"></span>&nbsp;查看更多</a></h4>
+            </div>
+            <div class="news2ct">
+                 <div class="cttop">
+                    <img src="__ROOT__/Uploads{$dtheader.photo}">
+                        <div class="cttopct">
+                            <h4 class="text-success text-center">{$dtheader.title}</h4>
+                            <p class="text-muted">
+                                {$dtheader.sct}<a class="glyphicon glyphicon-chevron-right" href="__URL__/article/articleid/{$dtheader.id}">&nbsp;查看详情</a>
+                            </p>
+                        </div>
+                </div>
+                  <volist name="dt" id="vodt">
+<div class="newslist">
+                    <h4><span class="glyphicon glyphicon-bullhorn text-muted">&nbsp;{$vodt.time|date="y-m-d",###}</span><span class="newslistt"><a href="__URL__/article/articleid/{$vodt.id}">{$vodt.title}</a></span></h4>
+                </div>
+</volist>
+            </div>
+            
+        </div>
+        <div class="clear"></div>
+    </div><!-- end news-->
+    
+    
+    
+    <!-- Elastislide Carousel -->
+    <div class="container demo-1" id="fc">
+        <h4 class="text-warning subtitle">风采展示</h4>
+				<ul id="carousel" class="elastislide-list">
+                                    <volist name="fc" id="vofc">
+<li><a href="__URL__/article/articleid/{$vofc.id}"><img src="__ROOT__/Uploads{$vofc.photo}" alt="{$vofc.title}" /></a></li>
+</volist>
+                                        
+					
+                                        
+				</ul>
+    </div>
+				<!-- End Elastislide Carousel -->
+     
+     <dl class="tabs" id="tabs1">
+                <volist name="schoollist" id="vos">
+                    <dt>{$vos.depname}</dt>
+                    <dd>
+                       <volist name="vos['school']" id="sub">
+        {$sub.name}
+        
+         <div class="xq">
+                    <img src="__PUBLIC__/images/xq1.jpg" class="xqphoto">
+                <div class="xqcontact">
+                   <h4><a href="__URL__/schoollist/articleid/{$sub.articleid}" class="glyphicon glyphicon-inbox">&nbsp;{$sub.schoolname}</a></h4>
+                    <h5>地址：{$sub.address}</h5>
+                    
+                </div>
+                <div class="clear"></div>
+                <h5 class="text-primary">电话：{$sub.contact} </h5> 
+                    
+                    </div>
+        
+    </volist> 
+                    </dd>
+    
+</volist>
+                
+     </dl>
+        
+     <div class="flink">
+        <h4 class="text-warning subtitle">友情链接</h4>
+        <ol class="breadcrumb">
+            
+            
+            
+            <volist name="flink" id="vof">
+                <li><a href="{$vof.value}">{$vof.avalue}</a></li>
+            </volist>
+  
+  
+</ol>
+    </div>
+     
+     
+    </div>
+     
+     
+    <hr class="tophr"> 
+    
+    <div class="footer">
+       <div class="ftct">
+       
+        
+      <div class="ft">
+        <img id="footlogo" src="__PUBLIC__/images/logosingle.png">
+      </div>
+      
+      <div class="ft">
+        <h4>关于我们</h4>
+        <h5 class="aulink"><a href="__URL__/aboutus/type/嘉一简介">嘉一简介</a></h5>
+        <h5 class="aulink"><a href="__URL__/aboutus/type/企业文化">企业文化</a></h5>
+        <h5 class="aulink"><a href="__URL__/aboutus/type/办学理念">办学理念</a></h5>
+        <h5 class="aulink"><a href="__URL__/aboutus/type/联系我们">联系我们</a></h5>
+      </div>
+      
+      <div class="ft">
+        <h4>友情链接</h4>
+        <h5 class="text-primary"><a href="http://www.zjedu.gov.cn/gb/index1.html">浙江省教育厅</a></h5>
+        <h5 class="text-primary"><a href="http://www.wzer.net/">温州教育网</a></h5>
+        <h5 class="text-primary"><a href="http://www.wzjky.net/">温州科研网</a></h5>
+        <h5 class="text-primary"><a href="http://www.yje.cn/">永嘉教育局</a></h5>
+      </div>
+      
+      <div class="ft">
+        <h4>联系方式</h4>
+        <h5 class="text-muted">电话 400-809-5822</h5>
+        <h5 class="text-muted">电话 400-809-5822</h5>
+      </div>
+      
+      <div class="bft">
+        <h4>理念</h4>
+        <p>真正的强者不一定是多有力，或者多有钱，而是他对别人多有帮助。责任可以让我们将事做完整，爱可以让我们将事情做好。</p>
+        <span class="sublink">ICP备案：湘ICP备12005327号</span>
+       <span class="sublink">技术支持：leovito科技</span>
+      </div>
+      
+      <div class="clear"></div>
+      <div class="link">
+       
+       
+      </div>
+       </div><!--end  ftct-->
+       
+    </div><!-- end footer-->
+
+    
+    <script type="text/javascript" src="__PUBLIC__/js/jquery-1.10.2.js"></script>
+    <script src="__PUBLIC__/js/bootstrap.min.js"></script>
+    <script src="__PUBLIC__/js/jquery.timetabs.min.js" type="text/javascript"></script>
+
+    <script src="__PUBLIC__/js/jquerypp.custom.js"></script>
+    <script SRC="__PUBLIC__/js/jquery.elastislide.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+       
+       $( '#carousel' ).elastislide();
+       $(".carousel-inner").find(".item").first().addClass("active");
+     
+	$('.carousel').carousel('cycle');
+       jQuery('dl#tabs1').addClass('enabled').timetabs({
+		defaultIndex: 0,
+		interval: 6500,
+		continueOnMouseLeave: true,
+		animated: false,
+		animationSpeed: 6500
+	});
+	
+	// animation preview
+	jQuery('input[name=animation]').click(function() {
+		$this = jQuery(this);
+		jQuery.fn.timetabs.switchanimation($this.val());
+	});
+       
+    });
+    </script>
+    <script>
+ function lazyloadimg(){
+    imgs=document.getElementsByTagName("img");
+    imgsnum=imgs.length;
+    for(i=0;i<imgsnum;i++){
+        if((typeof(imgs[i].src)=='undefined'||imgs[i].src=='')&&imgs[i].getAttribute('imgsrc')!=null){
+            imgs[i].src=imgs[i].getAttribute('imgsrc');
+        }
+    }
+ }
+lazyloadimg();
+ </script>
+   
+</body>
+</html>
